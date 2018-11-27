@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                    <resource id="Test_XmlFiles::rule1" title="Test rule 1" sortOrder="50">
+                        <resource id="Test_XmlFiles::rule2" title="Test rule 2" sortOrder="51" />
+                        <resource id="Test_XmlFiles::rule3" title="Test rule 3" sortOrder="52" />
+                    </resource>
+                </resource>
+        </resources>
+    </acl>
+</config>
