@@ -4,5 +4,6 @@
         <add id="Test_XmlFiles::menu" title="Parent" module="Test_XmlFiles" sortOrder="50" resource="Test_XmlFiles::rule1" />
         <add id="Test_XmlFiles::submenu1" title="Children" module="Test_XmlFiles" parent="Test_XmlFiles::menu" resource="Test_XmlFiles::rule2" />
         <add id="Test_XmlFiles::submenu2" title="SubChildren" module="Test_XmlFiles" action="xmltest/index/index" parent="Test_XmlFiles::submenu1" resource="Test_XmlFiles::rule3" />
+        <add id="Test_XmlFiles::submenu3" title="ShowAttribute" module="Test_XmlFiles" action="xmltest/index_attribute/show" parent="Test_XmlFiles::menu" resource="Test_XmlFiles::rule3" />
     </menu>
 </config>
