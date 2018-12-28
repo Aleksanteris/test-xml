@@ -4,5 +4,11 @@
         <route id="routingtest" frontName="routingtest">
             <module name="Test_XmlFiles" />
         </route>
+        <route id="customrout" frontName="customrout">
+            <module name="Test_XmlFiles" />
+        </route>
+        <route id="second" frontName="second">
+            <module name="Test_XmlFiles" />
+        </route>
     </router>
 </config>
